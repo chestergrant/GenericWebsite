@@ -1,0 +1,61 @@
+input[type="text"]:focus, input[type="password"]:focus {    
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.075) inset, 0px 0px 12px rgba(255, 255, 255, 0.75);
+}
+input[type="text"], input[type="password"]{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px 5px 5px 5px;
+    width: 250px;
+}
+form{
+   margin-top:50px;  
+   margin-left:auto;
+   margin-right:auto;
+   width:250px;
+}
+
+
+.user-error-bubble{
+    position: relative;
+    display: inline-block;
+    min-width: 250px;
+    height: 20px;
+    padding: 0px;
+    color:#d58a8a; 
+    background: #fff4f4;
+    padding-left: 10px;
+    border: #d58a8a solid 1px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    
+}
+#user-error{
+    /*visibility: hidden;*/
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 392px;
+}
+
+.reset-error-correction{    
+    visibility:hidden; 
+}
+#text{
+    
+    margin-top:40px;
+    margin-left:390px;    
+    height:27px;
+    width:350px;
+}
+#instructions{
+   margin-left:392px; 
+   margin-top:10px;  
+}
+#instructions2{
+   margin-top:50px;  
+   margin-left:auto;
+   margin-right:auto;
+   width:550px;    
+}

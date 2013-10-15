@@ -1,0 +1,80 @@
+input[type="text"]:focus, input[type="password"]:focus {    
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.075) inset, 0px 0px 12px rgba(255, 255, 255, 0.75);
+}
+input[type="text"], input[type="password"]{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px 5px 5px 5px;
+    width: 250px;
+}
+form{
+   margin-top:100px;  
+   margin-left:auto;
+   margin-right:auto;
+   width:250px;
+}
+
+.signup-error-bubble 
+{
+position: relative;
+display: inline-block;
+width: 135px;
+height: 30px;
+padding: 0px;
+color:#d58a8a; 
+background: #fff4f4;
+padding-left: 10px;
+border: #d58a8a solid 1px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+
+.signup-error-bubble:after 
+{
+content: "";
+position: absolute;
+top: 9px;
+left: -18px;
+border-style: solid;
+border-width: 7px 18px 7px 0;
+border-color: transparent #fff4f4;
+display: block;
+width: 0;
+z-index: 1;
+}
+
+.signup-error-bubble:before 
+{
+content: "";
+position: absolute;
+top: 9px;
+left: -19px;
+border-style: solid;
+border-width: 7px 18px 7px 0;
+border-color: transparent #d58a8a;
+display: block;
+width: 0;
+z-index: 0;
+}
+#field_errors{
+    float:right;
+    margin-top:-270px;
+    margin-right:75px;
+    width:250px;
+    font-size:13px;
+}
+.signup-error-correction{    
+    visibility:hidden;   
+}
+#lastname-error {
+    margin-top: 17px;
+}
+#email-error {
+    margin-top: 15px;
+}
+#password-error {
+    margin-top:15px;
+}

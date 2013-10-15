@@ -1,0 +1,66 @@
+body{ /*Started here*/
+    margin:0px;
+    padding:0px;
+    background-color: #202021;
+    color: #FFFFFF;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    min-width: 1000px;
+}
+#top_bar{
+    background: #FFFFFF;
+    width:100%;
+    height: 52px;
+    margin-left: 0px;
+    margin-top:0px;
+    padding:0px;
+    min-width: 1000px;
+    border-bottom: solid 1px #808080;
+   
+}
+#logo{/*Font in logo is Bradley hand*/
+    position:absolute;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+#generic_button{
+    
+    float: right;
+    margin-right : 30px;
+    margin-top:15px;
+}
+#signin a{
+    text-decoration: none;
+}
+.button {
+    display: inline-block;
+    background: #e4e4e4;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f6f6), color-stop(100%,#d7d7d7));
+    background: -moz-linear-gradient(center top, #f6f6f6 0%, #d7d7d7 100%);
+    -webkit-box-shadow: -1px 1px 0px 0px #dfdcdc inset, 1px -1px 0px 0px #bfbfbf inset;
+    -moz-box-shadow: -1px 1px 0px 0px #dfdcdc inset, 1px -1px 0px 0px #bfbfbf inset;
+    box-shadow: -1px 1px 0px 0px #dfdcdc inset, 1px -1px 0px 0px #bfbfbf inset;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    display: inline-block;
+    font-family: arial;
+    font-size: 11px;
+    line-height: 30px;
+    color: #595959;
+    font-weight: bold;
+}
+.button:hover {
+    -webkit-box-shadow: 0px 0px 0px 1px #a8a8a8 inset, 1px 1px 4px 0px #bababa;
+    -moz-box-shadow: 0px 0px 0px 1px #a8a8a8 inset, 1px 1px 4px 0px #bababa;
+    box-shadow: 0px 0px 0px 1px #a8a8a8 inset, 1px 1px 4px 0px #bababa;
+    color: #424242;
+}
+.button:active {
+    background: #e6e6e6;
+    -webkit-box-shadow: 0px 1px 5px 0px #808080 inset;
+    -moz-box-shadow: 0px 1px 5px 0px #808080 inset;
+    box-shadow: 0px 1px 5px 0px #808080 inset;
+}
+		
+		
